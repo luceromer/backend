@@ -3,11 +3,12 @@ package com.dh.clinica.service;
 
 import com.dh.clinica.persistence.dao.IDao;
 import com.dh.clinica.model.Domicilio;
+import org.springframework.stereotype.Service;
 
 
 import java.util.List;
 import java.util.Optional;
-
+@Service
 public class DomicilioService {
     private IDao<Domicilio> domicilioDao;
 
